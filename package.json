@@ -1,0 +1,58 @@
+{
+  "name": "@axolo/egg-wechat-pay",
+  "version": "1.0.0",
+  "description": "node-wechat-pay Egg.js plugin.",
+  "eggPlugin": {
+    "name": "wechatPay"
+  },
+  "keywords": [
+    "egg",
+    "eggPlugin",
+    "egg-plugin",
+    "egg-wechat-pay",
+    "node-wechat-pay"
+  ],
+  "dependencies": {
+    "@axolo/node-wechat-pay": "^0.0.1"
+  },
+  "devDependencies": {
+    "autod": "^3.1.0",
+    "autod-egg": "^1.1.0",
+    "egg": "^2.26.1",
+    "egg-bin": "^4.14.1",
+    "egg-ci": "^1.15.0",
+    "egg-mock": "^4.0.0",
+    "eslint": "^7.0.0",
+    "eslint-config-egg": "^8.0.1"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "scripts": {
+    "test": "npm run lint -- --fix && egg-bin pkgfiles && npm run test-local",
+    "test-local": "egg-bin test",
+    "cov": "egg-bin cov",
+    "lint": "eslint .",
+    "ci": "egg-bin pkgfiles --check && npm run lint && npm run cov",
+    "pkgfiles": "egg-bin pkgfiles",
+    "autod": "autod"
+  },
+  "files": [
+    "config",
+    "..",
+    "app.js"
+  ],
+  "ci": {
+    "version": "8, 10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axolo/egg-wechat-pay.git"
+  },
+  "bugs": {
+    "url": "https://github.com/axolo/egg-wechat-pay/issues"
+  },
+  "homepage": "https://github.com/axolo/egg-wechat-pay#readme",
+  "author": "Yueming Fang",
+  "license": "MIT"
+}
