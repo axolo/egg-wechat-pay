@@ -1,6 +1,5 @@
 'use strict';
 
-// const WechatPay = require('@axolo/node-wechat-pay');
 const WechatPay = require('@axolo/node-wechat-pay');
 
 /**

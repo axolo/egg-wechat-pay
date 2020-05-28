@@ -1,6 +1,6 @@
 {
   "name": "@axolo/egg-wechat-pay",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "node-wechat-pay Egg.js plugin.",
   "eggPlugin": {
     "name": "wechatPay"
@@ -13,7 +13,7 @@
     "node-wechat-pay"
   ],
   "dependencies": {
-    "@axolo/node-wechat-pay": "^0.0.1"
+    "@axolo/node-wechat-pay": "^0.0.2"
   },
   "devDependencies": {
     "autod": "^3.1.0",
