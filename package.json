@@ -1,7 +1,7 @@
 {
   "name": "@axolo/egg-wechat-pay",
-  "version": "1.0.1",
-  "description": "node-wechat-pay Egg.js plugin.",
+  "version": "1.2.0",
+  "description": "node-wechat-pay v2 Egg.js plugin.",
   "eggPlugin": {
     "name": "wechatPay"
   },
@@ -13,20 +13,20 @@
     "node-wechat-pay"
   ],
   "dependencies": {
-    "@axolo/node-wechat-pay": "^0.0.2"
+    "@axolo/node-wechat-pay": "^0.2.0"
   },
   "devDependencies": {
-    "autod": "^3.1.0",
+    "autod": "^3.1.1",
     "autod-egg": "^1.1.0",
-    "egg": "^2.26.1",
-    "egg-bin": "^4.14.1",
-    "egg-ci": "^1.15.0",
-    "egg-mock": "^4.0.0",
-    "eslint": "^7.0.0",
-    "eslint-config-egg": "^8.0.1"
+    "egg": "^2.29.4",
+    "egg-bin": "^4.16.2",
+    "egg-ci": "^1.18.0",
+    "egg-mock": "^4.1.0",
+    "eslint": "^7.28.0",
+    "eslint-config-egg": "^9.0.0"
   },
   "engines": {
-    "node": ">=10.0.0"
+    "node": ">=14.0.0"
   },
   "scripts": {
     "test": "npm run lint -- --fix && egg-bin pkgfiles && npm run test-local",
@@ -39,7 +39,7 @@
   },
   "files": [
     "config",
-    "..",
+    "lib",
     "app.js"
   ],
   "ci": {
