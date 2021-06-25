@@ -1,7 +1,7 @@
 {
   "name": "@axolo/egg-wechat-pay",
-  "version": "1.3.0",
-  "description": "node-wechat-pay v2 Egg.js plugin.",
+  "version": "1.3.1",
+  "description": "node-wechat-pay Egg.js plugin.",
   "eggPlugin": {
     "name": "wechatPay"
   },
